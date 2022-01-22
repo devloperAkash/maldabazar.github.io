@@ -1,0 +1,42 @@
+.text-center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.search input{
+
+    width: 293px;
+    height: 23px;
+    border-radius: 5px;
+    padding: 0 12px;
+}
+
+.btn{
+border-style: none;
+    background-color:  var(--main-bg-color);
+    color: white;
+   padding: 4px;
+cursor: pointer;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.btn:hover{
+
+font-weight: bolder;
+}
+.placeholder{
+padding: 0 2px;
+}
+
+
+
+
